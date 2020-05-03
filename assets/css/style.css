@@ -1,3 +1,8 @@
+.container {
+    background-color: burlywood;
+}
+   
+
 .instructions {
     width: 75%;
     margin: 4% 0 0 11%;
@@ -5,6 +10,10 @@
     padding-right: 10px;
     background-color: silver;
     border: 2px solid dodgerblue;
+}
+#p1 {
+    border: 1px solid black;
+
 }
 .random-number {
     width: 15%;
@@ -83,11 +92,13 @@
     margin-right: 20%;
     padding: 25px 0 12px 0;
 }
-.footer {
-    width: 26%;
+.sticky-footer {
+    width: 100%;
+    position: relative;
+    clear: both; 
     padding-top: 4px;
     padding-bottom: 4px;
-    margin: 33% 0 0 36%;
+    margin-top: 30px;
     text-align: center;
     background-color: #00E5FF;
     border: 8px solid;
